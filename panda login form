@@ -1,0 +1,329 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="" />
+	<title>panda login</title>
+    <style>
+    .div{
+        background-color: #FF3E43;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: end-flex;
+        margin: 60px auto auto auto;
+    }
+    .div2{
+        background-color: #FF3E43;
+        width: 190px;
+        height: 250px;
+        margin: auto auto 190px 150px;
+        display: flex;
+        align-items: end-flex;
+        position: relative;
+        
+    }
+    .ear-left{
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        display: flex;
+        align-items: end-flex;
+        margin-left: 10px;
+    }
+    .ear-left-black{
+        background-color: black;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin: 5px auto auto 5px;
+    }
+    .ear-right{
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left:70px;
+        display: flex;
+        align-items: end-flex;
+        align-items: center;
+    }
+    .ear-right-black{
+        background-color: black;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-left: 5px;
+        margin-bottom: 1px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .head-panda{
+        background-color: white;
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        margin-top: 10px;
+        border-radius: 70px;
+        position: absolute;
+        display: flex;
+        align-items: end-flex;
+    }
+    .eye-left{
+        background-color: black;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-top: 30px;
+        margin-left: 20px;
+        position: relative;
+        
+    }
+    .eye-right{
+        background-color: black;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-left: 30px;
+        margin-top: 30px;
+        position: relative;
+    }
+    .eye-left-white{
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 5px;
+        border-radius: 20px;
+        position: relative;
+    }
+    .eye-right-white{
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 5px;
+        border-radius: 20px;
+        position: relative;
+    }
+    .eye-left-black{
+        background-color: black;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        position: relative;
+    }
+    .eye-right-black{
+        background-color: black;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        position: relative;
+    }
+    .nose-black{
+        background-color: black;
+        width: 30px;
+        height: 20px;
+        border-radius: 20px;
+        margin-top: 80px;
+        margin-left: 50px;
+        position: absolute;
+    }
+    .login-form{
+        background-color: white;
+        width: 400px;
+        height: 270px;
+        margin-top: 160px;
+        position: absolute;
+        margin-left: 50px;
+        display: inline-block;
+    }
+    .ball-right{
+        background-color: black;
+        width: 50px;
+        height: 70px;
+        margin-top: 60px;
+        border-radius: 30px 30px 50px 50px;
+        margin-left: 250px;
+        position: absolute;
+    }
+    .ball-left{
+        background-color: black;
+        height: 70px;
+        width: 50px;
+        margin-left: 100px;
+        position: absolute;
+        border-radius: 30px 30px 50px 50px;
+        margin-top: 60px;
+    }
+    .ball-right-gray{
+        background-color: #151515;
+        width: 40px;
+        height: 45px;
+        border-radius: 50px;
+        margin-left: 5px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .ball-left-gray{
+        background-color: #151515;
+        width: 40px;
+        height: 45px;
+        border-radius: 50px;
+        margin-left: 5px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .ball-right-finger1{
+        background-color: #151515;
+        width: 10px;
+        height: 17px;
+        border-radius: 20px;
+        margin-top: 5px;
+        position: absolute;
+        margin-left: 5px;
+    }
+    .ball-right-finger2{
+        background-color: #151515;
+        width: 10px;
+        height: 15px;
+        border-radius: 20px;
+        margin-top: 5px;
+        position: absolute;
+        margin-left: 20px;
+    }
+    .ball-right-finger3{
+        background-color: #151515;
+        width: 10px;
+        height: 17px;
+        border-radius: 20px;
+        margin-top: 5px;
+        position: absolute;
+        margin-left: 35px;
+    }
+    .ball-left-finger1{
+        background-color: #151515;
+        width: 10px;
+        height: 17px;
+        border-radius: 20px;
+        margin-top: 5px;
+        position: absolute;
+        margin-left: 5px;
+    }
+    .ball-left-finger2{
+        background-color: #151515;
+        width: 10px;
+        height: 15px;
+        border-radius: 20px;
+        margin-top: 5px;
+        position: absolute;
+        margin-left: 20px;
+    }
+    .ball-left-finger3{
+        background-color: #151515;
+        width: 10px;
+        height: 17px;
+        border-radius: 20px;
+        margin-top: 5px;
+        position: absolute;
+        margin-left: 35px;
+    }
+    .hand-right1{
+        background-color: black;
+        width: 30px;
+        height: 15px;
+        border-radius: 20px;
+        margin-left: 35px;
+        margin-top: 257px;
+        position: absolute;
+    }
+    .hand-right2{
+        background-color: black;
+        width: 30px;
+        height: 15px;
+        border-radius: 20px;
+        margin-left: 35px;
+        margin-top: 245px;
+        position: absolute;
+    }
+    .hand-right3{
+        background-color: black;
+        width: 30px;
+        height: 15px;
+        border-radius: 20px;
+        margin-left: 35px;
+        margin-top: 234px;
+        position: absolute;
+    }
+    .hand-left1{
+        background-color: black;
+        width: 30px;
+        height: 15px;
+        border-radius: 20px;
+        margin-left: 435px;
+        margin-top: 257px;
+        position: absolute;
+    }
+    .hand-left2{
+        background-color: black;
+        width: 30px;
+        height: 15px;
+        border-radius: 20px;
+        margin-left: 435px;
+        margin-top: 245px;
+        position: absolute;
+    }
+    .hand-left3{
+                background-color: black;
+        width: 30px;
+        height: 15px;
+        border-radius: 20px;
+        margin-left: 435px;
+        margin-top: 234px;
+        position: absolute;
+    }
+    </style>
+</head>
+<body style="background-color: #FF3E43;">
+<div class="div">
+<div class="div2">
+<div class="ear-left"><div class="ear-left-black"></div></div>
+<div class="head-panda">
+<div class="eye-left"><div class="eye-left-white"><div class="eye-left-black"></div></div></div>
+<div class="nose-black"></div>
+<div class="eye-right"><div class="eye-right-white"><div class="eye-left-black"></div></div></div>
+</div>
+<div class="ear-right"><div class="ear-right-black"></div></div>
+
+</div>
+
+<div class="login-form"><i style="font-size: x-large; color: #FF3E43;
+ padding-left: 150px; padding-top: 20px; display: flex; align-items: end-flex;">panda login</i>
+ <form><input type="email" name="email" placeholder="email" style="font-size: x-large; margin-left: 50px;
+  border-width: 0 0 1px 0; margin-top: 30px; position: relative;" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+  <input type="password" name="password" placeholder="password" style="border-width: 0 0 1px 0; 
+  margin-left: 50px; margin-top: 20px; font-size: x-large;"/>
+  <div style="background-color: white; width: 400px; height: 100px; position: relative;;"><a href="https://google.com">
+  <input type="submit" value="login" style="background-color: #FF3E43; color: white; width: 200px;
+   height: 50px; margin-left: 100px; margin-top: 20px;border-width: 0px; position: absolute;"/></a>
+   </form>
+   
+   <div class="ball-right"><div class="ball-right-finger1"></div><div class="ball-right-finger2"></div>
+   <div class="ball-right-finger3"></div>
+   <div class="ball-right-gray"></div></div><div class="ball-left"><div class="ball-left-finger1"></div>
+   <div class="ball-left-finger2"></div><div class="ball-left-finger3"></div><div class="ball-left-gray"></div>
+   </div></div>
+
+   </div>
+   <div class="hand-left3"></div>
+   <div class="hand-left2"></div>
+   <div class="hand-left1"></div>
+   <div class="hand-right3"></div>
+   <div class="hand-right2"></div>
+  <div class="hand-right1"></div>
+  </div>
+    
+</div>
+</body>
+</html>
